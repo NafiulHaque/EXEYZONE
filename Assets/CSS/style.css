@@ -241,7 +241,7 @@ z-index: -1;
 /* --------Different------- */
 .different{
    position: relative;
-   height: 600px;
+   /* height: 600px; */
    width: 100%;
 }
 .diff-img{
@@ -253,7 +253,7 @@ z-index: -1;
     top: -54px;
     left: -43px;
     overflow: none;
-    height: 100%;
+    height: 110%;
     width: 100%;
     background-repeat: no-repeat;
 }
@@ -294,12 +294,66 @@ color: #ff0000;
 /* -----xx---Different----xx--- */
 
 
-/* --------Header------- */
-/* -----xx---Header----xx--- */
+/* --------BLUEBAR------- */
+.bluebar{
+    background-image: url("../images/blue-bar.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.bluebar .text{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+.bluebar .text span{
+    font-weight: 700;
+}
+.bluebar .col-md-3 {
+    display: flex;
+    align-items: center;
+}
+/* -----xx---BLUEBAR----xx--- */
 
 
-/* --------Header------- */
-/* -----xx---Header----xx--- */
+/* --------workingProgress------- */
+.workingProcess .box-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.workingProcess .box-cont .box {
+    text-decoration: none;
+    height: 150px;
+    width: 247px;
+    box-shadow: 0px 1px 5px -1px #837b7b;
+    border-radius: 10px;
+    color: #161b23;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.workingProcess .box-cont .box:hover{
+    box-shadow: 0px 1px 5px -1px #ff0000;
+    color: #ff0000;
+}
+
+.workingProcess .box-cont .box span{
+    font-size: 20px;
+}
+
+
+
+
+/* -----xx---workingProgress----xx--- */
 
 
 /* --------Header------- */
