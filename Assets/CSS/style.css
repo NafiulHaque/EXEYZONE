@@ -16,7 +16,20 @@ html,body{
 
 .header-1{
     background-color: #1051a2;
-    height: 20px;
+    height: 30px;
+}
+.header-1 .container,
+.header-1 .row{
+    height: 100%;
+}
+.header-1 .text{
+    font-size: 10px;
+    color: #ffffff;
+    height: 100%;
+}
+.header-1 .icon-grp a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .header-main{
@@ -565,7 +578,7 @@ background-position: center;
 }
 .footer .bar .skew-bar .red-bar{
     position: absolute;
-    background-color: #ff0000;
+    background-color: #ed1e30;
     height: 60px;
     width: 500px;
     z-index: 1;
